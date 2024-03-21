@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding:0;
-    /* box-sizing: border-box; */
     /* border:1px solid red; */
 }
 
@@ -96,8 +95,8 @@ body {
 /*---------Sticky Nav----------*/
 
 #sticky-nav {
+    /* box-sizing: initial; */
     width:100%;
-    box-sizing: none;
     max-width: 1000px;
     display: none;
     justify-content: space-between;
@@ -108,7 +107,7 @@ body {
     padding:10px calc(calc(100% - 1000px) / 2);
     box-shadow: 0px 0px 10px 0px #cfcfcf;
     z-index: 6;
-    transition: display 0.5s ease;
+    transition: display 5s ease;
 }
 
 #sticky-nav .left{
